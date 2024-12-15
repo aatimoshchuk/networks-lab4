@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="791.0" style="-fx-background-color: #193C40;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nsu.fit.controllers.MainMenuController">
+    <Label alignment="CENTER" ellipsisString="" layoutX="170.0" layoutY="14.0" prefHeight="116.0" prefWidth="437.0" text="Snake" textAlignment="CENTER" textFill="#a62b1f">
+        <font>
+            <Font name="mr_Pshek mr_Pshek_PY" size="95.0" />
+        </font>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <effect>
+         <Glow />
+      </effect>
+    </Label>
+   <Label alignment="CENTER" ellipsisString="" layoutX="170.0" layoutY="62.0" prefHeight="116.0" prefWidth="437.0" text="game" textAlignment="CENTER" textFill="#a62b1f99">
+      <font>
+         <Font name="mr_Pshek mr_Pshek_PY" size="84.0" />
+      </font>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <effect>
+         <Glow />
+      </effect>
+   </Label>
+     <Button layoutX="275.0" layoutY="171.0" mnemonicParsing="false" onAction="#createNewGame" prefHeight="56.0" prefWidth="228.0" style="-fx-border-color: #A64F03; -fx-background-color: #F2C12E; -fx-background-radius: 40; -fx-border-width: 4; -fx-padding: 0 5 0 5; -fx-border-radius: 40;" text="NEW GAME" textFill="#024959" wrapText="true">
+         <font>
+             <Font name="mr_Pshek mr_Pshek_KY" size="40.0" />
+         </font>
+     </Button>
+     <Button layoutX="275.0" layoutY="301.0" mnemonicParsing="false" onAction="#exit" prefHeight="56.0" prefWidth="228.0" style="-fx-background-color: #F2C12E; -fx-background-radius: 40; -fx-border-color: #A64F03; -fx-border-width: 4; -fx-border-radius: 40; -fx-padding: 0 5 0 5;" text="Exit" textFill="#024959">
+         <font>
+             <Font name="mr_Pshek mr_Pshek_KY" size="40.0" />
+         </font>
+     </Button>
+     <Button layoutX="275.0" layoutY="236.0" mnemonicParsing="false" onAction="#joinGame" prefHeight="56.0" prefWidth="228.0" style="-fx-background-color: #F2C12E; -fx-background-radius: 40; -fx-border-color: #A64F03; -fx-border-width: 4; -fx-border-radius: 40; -fx-padding: 0 5 0 5;" text="Join game" textFill="#024959">
+         <font>
+             <Font name="mr_Pshek mr_Pshek_KY" size="40.0" />
+         </font>
+     </Button>
+   <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="43.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+</AnchorPane>
